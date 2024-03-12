@@ -1,0 +1,79 @@
+//to compute aggregate marks and percentage
+
+
+
+#include<stdio.h>
+
+
+
+int main() {
+
+   // int marks1, marks2, marks3, marks4, marks5;  // Marks in five subjects
+
+    int totalmarks=0;  // Variable to store the total marks
+
+    float percentage;  // Variable to store the percentage
+
+
+
+    // Input marks for each subject
+
+   
+
+    
+
+    int i,marks;
+
+    printf("Random Numbers Are:\n");
+
+    marks=rand()%100+20;
+
+    for(i=0;i<5;i++)
+
+    {
+
+    printf("%d\n",marks);
+
+    totalmarks=totalmarks+marks;
+
+    }
+
+
+
+
+
+
+
+    // Calculate the total marks
+
+  //  totalMarks = marks1 + marks2 + marks3 + marks4 + marks5;
+
+
+
+    // Calculate the percentage
+
+    percentage =((totalmarks*100)/500);
+
+
+
+    // Display the total marks and percentage
+
+    printf("Total Marks: %d\n", totalmarks);
+
+    printf("Percentage Marks: %f\n", percentage);
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
