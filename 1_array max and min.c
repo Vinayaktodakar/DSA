@@ -1,9 +1,6 @@
 /*#include<stdio.h>
 
 void readmaxmin(int a[100],int n);
-
-
-
 main()
 
 {
